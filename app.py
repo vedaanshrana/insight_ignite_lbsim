@@ -72,7 +72,7 @@ df = load_data()
 # 3. SIDEBAR NAVIGATION
 # -----------------------------------------------------------------------------
 st.sidebar.title("Team A")
-st.logo("dare_lbsim.jpg", size='large')
+#st.logo("dare_lbsim.jpg", size='large')
 st.sidebar.write("Presented By: Shiwang Gupta and Vedaansh Rana")
 st.sidebar.markdown("---")
 page = st.sidebar.radio("Go to:", [
@@ -318,4 +318,5 @@ elif page == "6. CLV & Satisfaction":
 
 # Footer
 st.markdown("---")
+
 st.markdown("🚀 **Adobe Analytics Dashboard** | Built with Python & Streamlit")
