@@ -4,6 +4,7 @@ matplotlib
 seaborn
 scikit-learn
 plotly
-#altair<5
+altair<5
 streamlit
+
 
